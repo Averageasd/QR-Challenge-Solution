@@ -28,8 +28,8 @@ Desktop
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution repo](https://github.com/Averageasd/QR-Challenge-Solution)
+- Live Site URL: [Live site](https://averageasd.github.io/QR-Challenge-Solution)
 
 ## My process
 
