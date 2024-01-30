@@ -1,0 +1,78 @@
+:root {
+    --primary-color: hsl(212, 45%, 89%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --text-body-color: hsl(220, 15%, 55%);
+    --h2-color: hsl(218, 44%, 22%);
+
+    --fs-body: 15px;
+    --fs-h2: 1.25rem;
+
+    --fw-med: 400;
+    --fw-bold: 700;
+
+    --border-radius: 15px;
+
+    --box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: var(--fs-body);
+    line-height: 1.5;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: var(--border-radius);
+}
+
+main {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 0 0.5rem;
+}
+
+.card {
+    max-width: 350px;
+    padding: 1rem 1rem 2.5rem;
+    width: 90%;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.card__img-container {
+    border-radius: var(--border-radius);
+}
+
+.text {
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.card__title {
+    color: var(--h2-color);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+}
+
+.card__hero {
+    color: hsl(220, 15%, 55%);
+    font-weight: var(--fw-med);
+}
